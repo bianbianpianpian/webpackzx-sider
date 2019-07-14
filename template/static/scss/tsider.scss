@@ -1,0 +1,56 @@
+.main {
+	min-height: calc(100vh - 90px);
+	position: relative;
+	.v-sider {
+		// float: left;
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		border-radius: 10px;
+		margin-left: 15px;
+		width: 210px;
+		overflow: auto;
+		border: 1px solid #ddd;
+		min-height: calc(100vh - 90px);
+		// min-height: 600px;
+		.ivu-menu {
+			min-height: 100%;
+			width: 100% !important;
+			// min-height: calc(100vh - 337px);
+			.ivu-icon {
+				width: 11px;
+			}
+		}
+		a {
+			color: #333;
+			display: block;
+			&.v-active {
+				border-right: 2px solid #2d8cf0;
+			}
+		}
+	}
+	.content {
+		margin-left: 220px;
+		margin-top: 15px;
+		min-height: calc(100vh - 90px);
+		div.card {
+			margin-top: 0px;
+			border-top: 1px solid #ddd;
+			min-height: calc(100vh - 90px);
+		}
+	}
+}
+.ivu-menu-submenu-title span>i, .ivu-menu-submenu-title>i {
+	margin-right: auto;
+}
+.no-header-sider.main {
+	.content {
+		margin-left: 0px;
+		margin-top: 0px;
+		div.card {
+			min-height: calc(100vh - 0px);
+			margin: 0;
+			border-radius: 0px;
+		}
+	}
+}
