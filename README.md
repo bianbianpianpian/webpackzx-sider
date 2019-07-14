@@ -1,4 +1,4 @@
-# 基于iview组件的，有固定header的单页面应用模板
+# 基于iview组件的，有固定header/sider的单页面应用模板
 
 # vue-webpack-boilerplate
 
